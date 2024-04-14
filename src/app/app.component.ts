@@ -14,4 +14,5 @@ import { TimelineComponent } from './timeline/timeline.component';
 })
 export class AppComponent {
   title = 'cv-portfolio';
+
 }

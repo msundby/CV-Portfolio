@@ -1,4 +1,5 @@
-<div class="navbar bg-gradient-to-r from-blue-900 to-blue-950">
+<nav id="navbar">
+<div class="navbar fixed top-0 w-full bg-gradient-to-r from-blue-900 to-blue-950 z-50">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -10,12 +11,13 @@
         <li><a>Get in touch</a></li>
       </ul>
     </div>
-    <!-- <a class="btn btn-ghost text-4xl text-[#ffe4f2] ml-5">S</a> -->
+    <a (click)="scrollTo('navbar')"><img src="./assets/logo-only.png" class="h-10 ml-4 cursor-pointer"></a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1 text-lg text-indigo-200 mt-2 font-roboto">
-      <li><a>Projects</a></li>
-      <li><a>About me</a></li>
+      <li (click)="scrollTo('projectsStart')"><a>Projects</a></li>
+      <li (click)="scrollTo('cv')"><a>CV</a></li>
+      <li (click)="scrollTo('aboutme1234')"><a>About me</a></li>
       <li><a>Get in touch</a></li>
     </ul>
   </div>
@@ -23,4 +25,4 @@
   
   </div>
 </div>
-<!-- <hr class="text-indigo-200"> -->
+</nav>
