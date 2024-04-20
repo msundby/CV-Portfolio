@@ -5,11 +5,12 @@ import { FrontpageComponent } from './frontpage/frontpage.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FrontpageComponent, ProjectsComponent, TimelineComponent, AboutmeComponent],
+  imports: [RouterOutlet, NavbarComponent, FrontpageComponent, ProjectsComponent, TimelineComponent, AboutmeComponent, ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
