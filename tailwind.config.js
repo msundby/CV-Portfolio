@@ -10,6 +10,12 @@ module.exports = {
       }
     },
   },
+  theme: {
+    extend: {
+      screens: {
+        'custom': '1338px',
+      },
+    },
+  },
   plugins: [require("daisyui")],
 }
-

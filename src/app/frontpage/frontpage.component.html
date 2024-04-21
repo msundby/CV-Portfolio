@@ -1,38 +1,37 @@
-<section class="lg:pt-28 h-[28rem] bg-gradient-to-r from-blue-900 to-blue-950 flex items-center space-x-6 justify-center p-5">
-  
-  <div id="image" class="h-64 w-64">
+<section id="intro" class="flex flex-col pr-8 md:pr-0 md:flex-row items-center justify-center h-auto lg:h-[28rem] pt-24 pb-10 lg:pt-28 lg:space-x-6 space-y-6 lg:space-y-0 p-5 bg-gradient-to-r from-blue-900 to-blue-950">  
+  <div id="image" class="h-48 w-48 md:h-64 md:w-64">
     <img src="./assets/me.jpeg" class="rounded-lg shadow-xl">
   </div>
 
-  <div id="intro-text-and-social-links">
-  <div>
-      <p id="introText" class="text-indigo-200 w-96 h-auto text-md font-roboto">
+  <div id="intro-text-and-social-links" class="flex flex-col items-center justify-center md:pl-6 md:pb-5 md:items-start lg:items-start lg:pb-0">
+    <div>
+      <p id="introText" class="text-indigo-200 w-64 md:w-96 h-auto text-md font-roboto text-center md:text-left lg:text-left">
         <span class="text-orange-600"><b>Hey there!</b></span> I'm Mathias.<br>Danish <b>software engineering student</b> enrolled at SDU, based in the lovely city of Odense. <br> 
         Currently on the lookout for an <b>open student developer position</b> to enhance my skills and contribute. Additionally, I’m planning ahead to secure an exciting <b>internship</b> in February 2025.<br>  Let's team up!
       </p>
-  </div>
+    </div>
 
-  <div id="socialLinks" class="mt-4 text-orange-600">
-    <a target="_blank" href="https://github.com/msundby"><fa-icon [icon]="faSquareGithub" class="fa-xl mr-2"></fa-icon></a>
-    <a target="_blank" href="https://www.linkedin.com/in/mathiasss/"><fa-icon [icon]="faLinkedin" class="fa-xl"></fa-icon></a>
+    <div id="socialLinks" class="mt-4 text-orange-600">
+      <a target="_blank" href="https://github.com/msundby"><fa-icon [icon]="faSquareGithub" class="fa-xl mr-2"></fa-icon></a>
+      <a target="_blank" href="https://www.linkedin.com/in/mathiasss/"><fa-icon [icon]="faLinkedin" class="fa-xl"></fa-icon></a>
+    </div>
   </div>
-</div>
 </section>
 
 
-<section class="h-[26rem] bg-gradient-to-r from-indigo-200 to-indigo-200 flex flex-row justify-center items-center pl-30 pr-30">
-  <div id="leftText1" class="font-roboto text-4xl text-blue-950 w-2/5 font-2xl"> Languages, Frameworks & Containerization explored so far</div>
-  <div id="companyLogos" class="text-4xl text-blue-950 w-2/5 font-2xl">
-    <div class="flex flex-wrap justify-center items-center gap-y-3 gap-10 p-4">
-      <div class="flex items-center"><img src="./assets/java.png" class="h-24"></div>
-      <div class="flex items-center"><img src="./assets/angular.png" class="h-20 mt-3"></div>
-      <div class="flex items-center"><img src="./assets/css.png" class="h-20"></div>
-      <div class="flex items-center"><img src="./assets/html.png" class="h-20"></div>
-      <div class="flex items-center"><img src="./assets/javascript.png" class="h-16 mt-3"></div>
-      <div class="flex items-center"><img src="./assets/laravel-3.png" class="h-28"></div>
-      <div class="flex items-center"><img src="./assets/java-spring.png" class="h-14"></div>
-      <div class="flex items-center"><img src="./assets/docker.png" class="h-14 mb-3"></div>
-      <div class="flex items-center"><img src="./assets/tailwind.png" class="h-8"></div>
+<section class=" flex flex-col bg-gradient-to-r from-indigo-200 to-indigo-200 md:flex-row justify-center items-center md:pl-30 md:pr-30 lg:h-[26rem]">
+  <div id="languagesText" class="text-xl pr-4 pt-5 md:p-0 md:ml-3 md:mt-3 font-roboto text-center md:text-left md:font-normal md:text-4xl text-blue-950 md:w-2/5"> Languages, Frameworks & Containerization explored so far</div>
+  <div id="companyLogos" class="text-4xl text-blue-950 md:w-2/5 font-2xl">
+    <div class="flex flex-wrap pt-6 ml-4 mr-10 md:flex-wrap justify-center gap-x-6 gap-y-3 md:mx-0 md:justify-center md:items-center md:gap-y-3 md:gap-10 md:p-4">
+      <div class="flex items-center"><img src="./assets/java.png" class="h-20 mb-3 md:h-16 md:mt-3 lg:h-18 xl:h-24"></div>
+      <div class="flex items-center"><img src="./assets/angular.png" class="h-14 mt-1 md:h-12 md:mt-3 lg:h-14 xl:h-20 "></div>
+      <div class="flex items-center"><img src="./assets/css.png" class="h-14 md:h-12 md:mt-3 lg:h-14 xl:h-20"></div>
+      <div class="flex items-center"><img src="./assets/html.png" class="h-14 md:h-12 md:mt-3 lg:h-14 xl:h-20"></div>
+      <div class="flex items-center"><img src="./assets/javascript.png" class="h-12 mb-4 md:h-10 lg:h-12 lg:mt-8 xl:h-16 mt-3"></div>
+      <div class="flex items-center"><img src="./assets/laravel-3.png" class="h-20 mt- md:h-16 md:mt-3 lg:h-22 lg:mt-3 xl:h-28"></div>
+      <div class="flex items-center"><img src="./assets/java-spring.png" class="h-8 mb-1 md:h-8 lg:h-10 xl:h-14"></div>
+      <div class="flex items-center"><img src="./assets/docker.png" class="h-8 mt-3 mb-6 md:h-8 lg:h-10 xl:h-14 xl:mb-3"></div>
+      <div class="flex items-center"><img src="./assets/tailwind.png" class="h-6 mt-2 md:h-6 lg:h-7 xl:h-8"></div>
     </div>
   </div>
 </section>
