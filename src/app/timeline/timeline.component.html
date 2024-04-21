@@ -1,20 +1,20 @@
 <div id="cv" class="h-10 bg-gradient-to-r from-blue-900 to-blue-950"></div>
-<section class="h-auto bg-gradient-to-r from-indigo-100 to-indigo-200 px-48 pb-20" >
+<section class="h-auto bg-gradient-to-r from-indigo-100 to-indigo-200 px-2 md:px-10 md:text-start lg:px-20 xl:px-48 pb-20" >
 
-  <div id="aboutme1234" class="text-4xl text-blue-950 font-2xl flex flex-row justify-center pb-14 mb-8 pt-20">
+  <div id="aboutme1234" class="text-xl pt-5 pb-5 sm:text-4xl text-blue-950 font-2xl flex flex-row justify-center sm:pb-14 mb-8 sm:pt-20">
    Highlights from the past few years
   </div>
 
   <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-blue-950 font-roboto">
     
-    <li>
+    <li class="mb-5 sm:mb-0">
       <div class="timeline-middle">
-        <img src="./assets/nelles.png" class="h-6 mx-3 mb-3">
+        <img src="./assets/nelles.png" class="h-4 mr-2 mt-0.5 sm:h-6 sm:mx-3 sm: mb-3">
       </div>
       <div class="timeline-start md:text-end mb-10">
         <time class="font-roboto italic">2019-2022</time>
         <div class="text-lg font-bold">Store Manager</div>
-        After gaining experience after a few years at Odense's beloved Nelle's Filosoffen Café, I was entrusted with the role of Store Manager at their top-performing location.
+        After gaining experience a few years at Odense's beloved Nelle's Filosoffen Café, I was entrusted with the role of Store Manager at their top-performing location.
         I managed a team of 15 employees including everything from shift scheduling to inventory purchasing, hiring new team members, and having the overall responsibility for the café's operations.
         I loved my time at Nelle's which truly was a highlight of my life. At the same time it fostered professional and personal growth as a young leader, for becoming more focused and driven towards goals i set for myself.
         <br>
@@ -22,13 +22,13 @@
         <br>
         <a target="_blank" href="./assets/recommendations/anbefaling-nelles.pdf"><button class="btn btn-outline btn-success mt-3">See recommendation here</button></a>
       </div>
-      <hr/>
+      <hr class="hidden sm:block"/>
     </li>
     
     <li>
       <hr />
       <div class="timeline-middle">
-        <img src="./assets/sdu.png" class="h-7 my-3 mr-3 ml-10">
+        <img src="./assets/sdu.png" class="h-4 mt-3 mr-2 sm:h-7 sm:my-3 sm:mr-3 sm:ml-10">
       </div>
       <div class="timeline-end mb-10 mt-4">
         <time class="font-roboto italic">2022-Now</time>
@@ -37,28 +37,37 @@
           After some years of developing myself personally and gaining experience in the workforce, I enrolled at SDU for a degree in Software Technology. (BEeng in Software Technology) 
           I am currently in my 4th semester, and while the program can be tough in many aspects, it's also incredibly rewarding.
           Ultimately, I am enjoying my time at SDU and learning a lot in the process.
-      </div>
-      <hr />
+          <br>
+          <div class="group relative">
+            
+            <a href="./assets/grades.png" target="_blank" class="btn btn-outline btn-success mt-3 lg:hidden">See grades here</a>
+
+            <button class="btn btn-outline btn-success mt-3 hidden lg:block">See grades here</button>
+            <img src="./assets/grades.png" class="hover-image rounded-md absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-10 hidden lg:block">
+          </div>
+        </div>
+        <hr class="hidden sm:block"/>
     </li>
 
 
     <li>
       <div class="timeline-middle">
-        <img src="./assets/grand-hotel.png" class="h-4 mx-3 mb-4 mt-3">
+        <img src="./assets/grand-lille.png" class="h-16 sm:h-24 sm:mx-3 sm:mb-4 sm:mt-3">
       </div>
-      <div class="timeline-start md:text-end mb-10 mt-4">
+      <div class="timeline-start md:text-end mb-10 sm:mt-8">
         <time class="font-roboto italic">2023-Now</time>
-        <div class="text-lg font-bold">Student worker</div>
+        <div class="text-lg font-bold">Student worker - Grand Hotel</div>
          Given my experience in the service industry i am currently employed at Grand Hotel in Odense, where I assist in both the à la carte restaurant and at events. 
          Grand Hotel is known for its exceptional dining experience, demanding high standards of quality and service from their employees.
          This has been a great experience so far, allowing me to contribute to Grand Hotel's great reputation.
          <br>
          <button class="btn btn-outline btn-success mt-3">See recommendation here</button>
       </div>
-      <hr/>
+      <hr class="hidden sm:block"/>
     </li>
 
-    <li>
+
+    <!-- <li>
       <hr />
       <div class="timeline-middle" id="scrolltest">
         <a target="_blank" href="https://www.linkedin.com/in/mathiasss/"><img src="./assets/linkedin.png" class="h-14 my-3 hover:scale-125 cursor-pointer"></a>
@@ -67,7 +76,12 @@
         <time class="font-roboto italic"></time>
         <div class="text-lg font-semibold mt-8 ml-3"> ← Check out my full CV at LinkedIn here</div>
       </div>
-    </li>
+    </li> -->
+
+    <div class="flex flex-col justify-center items-center mt-14 sm:mt-4">
+      <a target="_blank" href="https://www.linkedin.com/in/mathiasss/"><img src="./assets/linkedin.png" class="h-14 my-3 hover:scale-125 cursor-pointer"></a>
+      <div class="text-lg ml-3"> Check out my full CV at LinkedIn here</div>
+    </div>
 
 
   </ul>
