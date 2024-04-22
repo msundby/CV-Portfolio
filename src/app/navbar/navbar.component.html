@@ -2,10 +2,11 @@
 <div class="navbar fixed top-0 w-full bg-gradient-to-r from-blue-900 to-blue-950 z-50">
   <div class="navbar-start">
     <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <img id="burgerMenu" src="./assets/logo-only.png" class="h-9 sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden flex flex-row justify-stretch">
+        <img id="burgerMenu" src="./assets/burger-menu.svg" class="h-6 mt-2 sm:hidden">
+        <!-- <img id="burgerMenuLogo" src="./assets/logo-only.png" class="h-9 mt-1 sm:hidden"> -->
       </div>
-      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-indigo-200 rounded-box w-52">
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-indigo-200 rounded-box w-52 text-blue-950">
         <li (click)="scrollTo('navbar')"><a>Start</a></li>
         <li (click)="scrollTo('projectsStart')"><a>Projects</a></li>
         <li (click)="scrollTo('cv')"><a>CV</a></li>
